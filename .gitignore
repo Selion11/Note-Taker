@@ -1,0 +1,57 @@
+# --- Dependencias y Compilación ---
+node_modules/
+dist/
+build/
+out/
+
+# --- Base de Datos (Docker Volumes) ---
+postgres_data/
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# --- Variables de Entorno (SEGURIDAD) ---
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# --- OS / Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Tests / Cobertura ---
+coverage/
+.nyc_output/
+
+# --- IDEs y Editores ---
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode (Ignoramos todo menos archivos de configuración compartidos si los hubiera)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Temporales y Runtime ---
+.temp/
+.tmp/
+pids
+*.pid
+*.seed
+*.pid.lock
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
