@@ -22,7 +22,7 @@ Versions used during development:
 
 ## 2. Architecture & Patterns
 
-Following the requirements in `CHALLENGE.md`, the backend is structured using the **Service Layer** pattern:
+The backend is structured using the **Service Layer** pattern:
 
 - **Controllers**: HTTP routing + validation (DTOs).
 - **Services**: business logic (e.g., archiving, category mapping).
